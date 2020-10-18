@@ -1,0 +1,9 @@
+diff a/src/UserList.js b/src/UserList.js	(rejected hunks)
+@@ -14,6 +14,7 @@
+         {username}
+       </b> 
+       <span>({email})</span>
++      <button onClick={() => onRemove(id)} >삭제</button>
+     </div>
+   )
+ }
